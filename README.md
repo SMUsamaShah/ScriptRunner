@@ -1,4 +1,4 @@
-# ScriptRunner
+# ScriptRunner (Updated to work with Groovy)
 Allows to virtually use `source script.sql` with your JDBC 
 
 Initial code was duplicated from: http://pastebin.com/f10584951
