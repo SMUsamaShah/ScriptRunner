@@ -140,7 +140,7 @@ public class ScriptRunner {
      * @throws SQLException if any SQL errors occur
      * @throws IOException if there is an error reading from the Reader
      */
-    private void runScript(Connection conn, Reader reader) throws IOException,
+    public void runScript(Connection conn, Reader reader) throws IOException,
             SQLException {
         StringBuffer command = null;
         try {
